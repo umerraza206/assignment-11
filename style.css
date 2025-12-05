@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body{
+    background-color: rgb(219, 118, 118);
+    text-align: center;
+}
+
+/* Section-1 */
+
+.box-px{
+    width: 200px;
+    height: 150px;
+    background-color: lightblue ;
+    font-size: larger;
+    box-shadow: 4px 2px 2px rgb(71, 78, 71);
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 700;
+    padding-top: 60px;
+    border-radius: 10px;
+}
+.box-percent{
+    width: 50% ;
+    height: 100px;
+    background-color: lightgreen;
+    font-size: larger;
+    border: 2px solid black;
+    box-shadow: 5px 2px 2px rgb(71, 78, 71);
+    padding-top: 60px;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+/* Section-2 */
+
+.parent{
+    font-size: 20px;
+}
+.text-em{
+    font-size: 1.5em;
+}
+.text-rem{
+    font-size: 2rem;
+}
+
+/* Section-3 */
+
+.viewport-box{
+    width: 50vw;
+    height: 30vh;
+    background-color: peachpuff;
+    margin:auto ;
+    box-shadow: 5px 3px 2px rgb(71, 78, 71);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.viewport-title{
+    font-size: 5vmin;
+    margin-top: 3vmax;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+/* Section-4 */
+
+.limit-box{
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    max-height: 200px ;
+    background-color: lightgrey;
+    margin: auto;
+    margin-top:20px ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+img{
+    max-height: 200px;
+}
+
+/* Section-5 */
+
+.ch-text{
+    width: 50ch;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
